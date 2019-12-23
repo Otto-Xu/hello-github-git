@@ -1,1 +1,2 @@
 test for git commit
+how to adjust the github directory ? 
