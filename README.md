@@ -2,7 +2,7 @@ hello github
 
 
 1.撤销最近一次的git push  
-  git reflog  
+ git reflog  
   git reset --soft HEAD~1  
   git reflog   
   git status   
