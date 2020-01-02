@@ -2,7 +2,7 @@ hello github
 
 
 1.撤销最近一次的git push  
- git reflog  
+  git reflog  
   git reset --soft HEAD~1  
   git reflog   
   git status   
@@ -16,7 +16,7 @@ hello github
 
 
 3.删除指定的文件  
- git rm -r --cached ${file}  
+  git rm -r --cached ${file}  
   git commit -m "delete file"  
   git push -u origin master  
 
