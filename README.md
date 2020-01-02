@@ -16,7 +16,7 @@ hello github
 
 
 3.删除指定的文件
-  git rm -r --cached ${file}
+ git rm -r --cached ${file}
   git commit -m "delete file"
   git push -u origin master
 
