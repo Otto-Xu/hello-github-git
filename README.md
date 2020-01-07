@@ -31,8 +31,8 @@ hello github
   复制其url粘贴进DownGit下载即可
 
 6.通过vim命令行实现两个vim文本之间的复制粘贴  
-  假设用vim编辑器分别打开两个不同的文件，一个为/home/test1/1.c，另一个为/home/test2/2.c
-  将2.c的某些语句复制到1.c
-  在1.c所处的vim编辑器中，在命令行输入sp进行窗口分割
-  继续在命令行中输入e /home/test2/2.c
-  通过ctrl + w + 方向键进行窗口切换，yy/p进行复制粘贴
+  假设用vim编辑器分别打开两个不同的文件，一个为/home/test1/1.c，另一个为/home/test2/2.c  
+  将2.c的某些语句复制到1.c  
+  在1.c所处的vim编辑器中，在命令行输入sp进行窗口分割  
+  继续在命令行中输入e /home/test2/2.c  
+  通过ctrl + w + 方向键进行窗口切换，yy/p进行复制粘贴  
