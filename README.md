@@ -23,3 +23,9 @@ hello github
 
 4.修改commit message  
 
+
+5.从github中下载指定文件夹  
+  进入以下网址  
+  https://minhaskamal.github.io/DownGit/#/home  
+  进入github中需要下载的文件夹所在网址
+  复制其url粘贴进DownGit下载即可
