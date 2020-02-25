@@ -36,3 +36,14 @@ hello github
   在1.c所处的vim编辑器中，在命令行输入sp进行窗口分割  
   继续在命令行中输入e /home/test2/2.c  
   通过ctrl + w + 方向键进行窗口切换，yy/p进行复制粘贴  
+
+
+7.将Python3.5.2升级至Python3.6.10后，通过快捷键Ctrl+Alt+T无法启动终端  
+  输入命令：
+  $gnome-terminal
+  看到报错信息：ImportError:cannot import name 'gi'
+  解决：
+  $ cd /usr/lib/python3/dist-packages/gi/
+  # 将35改成36
+  $ sudo mv _gi_cairo.cpython-35m-x86_64-linux-gnu.so  _gi_cairo.cpython-36m-x86_64-linux-gnu.so
+  $ sudo mv _gi.cpython-35m-x86_64-linux-gnu.so _gi.cpython-36m-x86_64-linux-gnu.so
