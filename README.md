@@ -46,3 +46,8 @@ hello github
   $ cd /usr/lib/python3/dist-packages/gi/  
   $ sudo mv _gi_cairo.cpython-35m-x86_64-linux-gnu.so  _gi_cairo.cpython-36m-x86_64-linux-gnu.so  
   $ sudo mv _gi.cpython-35m-x86_64-linux-gnu.so _gi.cpython-36m-x86_64-linux-gnu.so  
+  
+8.git push错误failed to push some refs to的解决  
+  这个问题是因为远程库与本地库不一致造成的，那么我们把远程库同步到本地库就可以了。  
+  git pull --rebase origin master  
+  
