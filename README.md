@@ -30,6 +30,7 @@ hello github
   进入github中需要下载的文件夹所在网址
   复制其url粘贴进DownGit下载即可
 
+
 6.通过vim命令行实现两个vim文本之间的复制粘贴  
   假设用vim编辑器分别打开两个不同的文件，一个为/home/test1/1.c，另一个为/home/test2/2.c  
   将2.c的某些语句复制到1.c  
@@ -47,7 +48,13 @@ hello github
   $ sudo mv _gi_cairo.cpython-35m-x86_64-linux-gnu.so  _gi_cairo.cpython-36m-x86_64-linux-gnu.so  
   $ sudo mv _gi.cpython-35m-x86_64-linux-gnu.so _gi.cpython-36m-x86_64-linux-gnu.so  
   
+  
 8.git push错误failed to push some refs to的解决  
   这个问题是因为远程库与本地库不一致造成的，那么我们把远程库同步到本地库就可以了。  
   git pull --rebase origin master  
   
+
+9.清空history历史命令记录
+  vim ~/.bash_history
+  history -c
+  history -r
