@@ -54,7 +54,7 @@ hello github
   git pull --rebase origin master  
   
 
-9.清空history历史命令记录
-  vim ~/.bash_history
-  history -c
-  history -r
+9.清空history历史命令记录  
+  vim ~/.bash_history  
+  history -c  
+  history -r  
