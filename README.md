@@ -58,3 +58,12 @@ hello github
   vim ~/.bash_history  
   history -c  
   history -r  
+  
+  
+10.局域网ping不通，出现如下问题：  
+   From 192.168.0.101 icmp_seq=1 Destination Host Unreachable  
+   From 192.168.0.101 icmp_seq=2 Destination Host Unreachable  
+   From 192.168.0.101 icmp_seq=3 Destination Host Unreachable  
+
+   原因：未知    
+   解决方案：rm /var/lib/NetworkManager/NetworkManager.state，重启机器  
