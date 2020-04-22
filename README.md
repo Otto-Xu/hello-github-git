@@ -82,7 +82,7 @@ hello github
 
 ##### 11.histroy命令显示时间
 ```
-编辑/etc/bashrc文件，加入如下几行：
+编辑/etc/bash.bashrc文件，加入如下几行：
 HISTTIMEFORMAT="%F %T "
 export HISTTIMEFORMAT
 保存后退出，关闭当前shell，并重新登录，再登录时就会有时间显示history记录了。
